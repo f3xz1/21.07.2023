@@ -16,7 +16,7 @@ app.MapGet("/RandPhoneNumb", () =>
     return "+994 50 123 123";
 });
 
-app.MapPost("/PhoneNumb", async (string start) =>
+app.MapPost("/ParamPhoneNumb", async (string start) =>
 {
     return $"{start} 123 123";
 });

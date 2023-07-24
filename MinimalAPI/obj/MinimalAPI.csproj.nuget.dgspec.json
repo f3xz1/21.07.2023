@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gagn_ob80\\source\\repos\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj": {}
+    "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gagn_ob80\\source\\repos\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj": {
+    "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gagn_ob80\\source\\repos\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj",
+        "projectUniqueName": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj",
         "projectName": "MinimalAPI",
-        "projectPath": "C:\\Users\\gagn_ob80\\source\\repos\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj",
+        "projectPath": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinimalAPI\\MinimalAPI\\MinimalAPI.csproj",
         "packagesPath": "C:\\Users\\gagn_ob80\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gagn_ob80\\source\\repos\\MinimalAPI\\MinimalAPI\\obj\\",
+        "outputPath": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinimalAPI\\MinimalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
