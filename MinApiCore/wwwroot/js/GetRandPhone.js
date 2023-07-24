@@ -1,6 +1,9 @@
 let label = $("#PhoneLabel")
 
-function getCords() {
+getRand();
+
+
+function getRand() {
     const apiUrl = `https://localhost:7225/RandPhoneNumb`;
     $.ajax({
         type: "GET",

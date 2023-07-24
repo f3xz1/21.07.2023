@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gagn_ob80\\source\\repos\\MinApiCore\\MinApiCore\\MinApiCore.csproj": {}
+    "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinApiCore\\MinApiCore\\MinApiCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gagn_ob80\\source\\repos\\MinApiCore\\MinApiCore\\MinApiCore.csproj": {
+    "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinApiCore\\MinApiCore\\MinApiCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gagn_ob80\\source\\repos\\MinApiCore\\MinApiCore\\MinApiCore.csproj",
+        "projectUniqueName": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinApiCore\\MinApiCore\\MinApiCore.csproj",
         "projectName": "MinApiCore",
-        "projectPath": "C:\\Users\\gagn_ob80\\source\\repos\\MinApiCore\\MinApiCore\\MinApiCore.csproj",
+        "projectPath": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinApiCore\\MinApiCore\\MinApiCore.csproj",
         "packagesPath": "C:\\Users\\gagn_ob80\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gagn_ob80\\source\\repos\\MinApiCore\\MinApiCore\\obj\\",
+        "outputPath": "C:\\Users\\gagn_ob80\\source\\repos\\WebApiDz\\MinApiCore\\MinApiCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
