@@ -1,19 +1,21 @@
-let label = $("#PhoneLabel")
+let label = $("#PhoneLabel");
 
-getRand();
+$("#GetPhoneButton").on("click", getPhone);
 
-
-function getRand() {
-    const apiUrl = `https://localhost:7225/RandPhoneNumb`;
-    $.ajax({
-        type: "GET",
-        url: apiUrl,
-        success: function (response) {
-            label.value = response;
-            console.log(error);
-        },
-        error: function (error) {
-            console.log(error);
-        },
-    });
+function getPhone() {
+  const apiUrl = `https://localhost:7225/RandPhoneNumb`;
+  console.log(apiUrl);
+  $.ajax({
+    url: apiUrl,
+    type: "GET",
+    success: function (response) {
+        $("#PhoneLabel").css("background", "rgb(173, 255, 47,0.5)");
+      console.log(response);
+      label.text(response);
+    },
+    error: function (error) {
+      console.error("POST Error:", error);
+      $("#PhoneLabel").css("background", "red");
+    },
+  });
 }
