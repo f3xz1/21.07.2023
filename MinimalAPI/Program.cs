@@ -9,16 +9,29 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+List<string> starts = new List<string>() { 
 
+    "050",
+    "055",
+    "070",
+    "077",
+};
+Random random = new Random();
+
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod();
+});
 
 app.MapGet("/RandPhoneNumb", () =>
 {
-    return "+994 50 123 123";
+    return $"{starts[random.Next(3)]} {random.Next(100,999)} {random.Next(100, 999)}";
 });
 
 app.MapPost("/ParamPhoneNumb", async (string start) =>
 {
-    return $"{start} 123 123";
+    return $"{start} {random.Next(100, 999)} {random.Next(100, 999)}";
 });
 
 
